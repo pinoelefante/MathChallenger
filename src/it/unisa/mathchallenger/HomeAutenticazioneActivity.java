@@ -75,7 +75,7 @@ public class HomeAutenticazioneActivity extends ActionBarActivity {
 			else {
 				view.setBackgroundResource(R.drawable.sfondohome);
 			}
-			addAD();
+			//addAD();
 			if (!isVersionChecked)
 				new AlertDialog.Builder(this).setMessage(R.string.errore_verificare_connessione).setCancelable(false).setPositiveButton("OK", null).show();
 			if (isVersionChecked && !isVersionValid)

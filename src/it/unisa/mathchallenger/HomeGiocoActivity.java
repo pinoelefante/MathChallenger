@@ -52,7 +52,7 @@ public class HomeGiocoActivity extends ActionBarActivity {
 		}
 
 		comm = Communication.getInstance();
-		aggiungiAD();
+		//aggiungiAD();
 		if (t_aggiorna_partite == null || !t_aggiorna_partite.isAlive()) {
 			t_aggiorna_partite = new ThreadAggiornaPartite();
 			t_aggiorna_partite.start();
